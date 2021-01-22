@@ -52,7 +52,7 @@ class Application:
         self.root = tk.Tk()
         self.root.title("Sign language to Text Converter")
         self.root.protocol('WM_DELETE_WINDOW', self.destructor)
-        self.root.geometry("900x1100")
+        self.root.geometry("900x700")
         self.panel = tk.Label(self.root)
         self.panel.place(x = 135, y = 10, width = 640, height = 640)
         self.panel2 = tk.Label(self.root) # initialize image panel
